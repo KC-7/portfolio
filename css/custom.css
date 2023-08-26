@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Center images horizontally and vertically */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Contains image to avoid cropping */
+.image-container img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Maintain aspect ratio for images */
+.centered-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+/* Ensure all containers have the same height */
+.portfolio-item {
+    height: 300px;
+    position: relative;
+}
