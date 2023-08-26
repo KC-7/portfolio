@@ -44,3 +44,37 @@
 .custom-link:hover {
     color: darkcyan;
 }
+
+/* Styling for Gold Star*/
+.position-bottom-end {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 4rem;
+    color: gold;
+    z-index: 2;
+    animation: heartbeat 1.5s infinite; /* Apply heartbeat animation */
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2); /* Increase scale during the middle of the animation */
+    }
+}
+
+/* Styling for Custom Hover */
+.custom-hover {
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+.custom-hover img {
+    transition: transform 0.3s ease;
+}
+
+.custom-hover:hover img {
+    transform: translateZ(-50px) scale(1.1);
+}
