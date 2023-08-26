@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    border: 2px solid silver;
+    border: 1px solid aliceblue;
+    background-color: azure;
     border-radius: 10px;
     padding: 10px;
 }
@@ -32,4 +33,13 @@
 .portfolio-item {
     height: 300px;
     position: relative;
+}
+
+/* Custom URL Styling */
+.custom-link {
+    color: blueviolet;
+}
+
+.custom-link:hover {
+    color: rgb(89, 1, 172);
 }
